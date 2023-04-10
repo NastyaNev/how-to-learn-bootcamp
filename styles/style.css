@@ -20,14 +20,15 @@
 }
 
 .logo {
-  position: absolute;
   width: 228px;
   height: 32px;
 }
 
 .logo_place_header {
   background-image: url("../images/logo_place_header.svg");
-  margin: 30px 0 0 64px;
+  position: absolute;
+  top: 30px;
+  left: 64px;
   z-index: 2;
 }
 
@@ -45,6 +46,7 @@
 .header__subtitle {
   width: 388px;
   position: absolute;
+  margin: 0;
   bottom: 30px;
   left: 64px;
   color: #000;
@@ -175,7 +177,7 @@
 }
 
 .feynman {
-  height: 890px;
+  min-height: 890px;
   display: flex;
   position: relative;
   flex-direction: column;
@@ -208,6 +210,7 @@
   line-height: 51px;
   font-weight: normal;
   font-size: 36px;
+  text-decoration: none;
   color: #2f80ed;
   z-index: 1;
 }
@@ -226,7 +229,7 @@
   flex-direction: column;
   align-items: center;
   position: relative;
-  background-color: #000;
+  background-color: #1f1f1f;
   overflow: hidden;
 }
 
@@ -297,7 +300,9 @@
 }
 
 .footer {
-  background-color: #000;
+  background-color: #1f1f1f;
+  box-sizing: border-box;
+  /*min-height: 350px;*/
   padding: 60px 0 40px 0;
 }
 
@@ -347,16 +352,16 @@
  padding: 0;
 }
 
-.footer__column_link {
+.footer__column-link {
   color: white;
   text-decoration: none;
 }
 
-.footer__column_link:last-child {
+.footer__column-link:last-child {
   margin-bottom: 16px;
 }
 
-.footer__column_link-img {
+.footer__social-icon {
   width: 16px;
   height: 16px;
   margin-right: 10px;

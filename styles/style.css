@@ -78,7 +78,6 @@
   top: 64px;
   right: 0;
   position: absolute;
-  
 }
 
 .animated {
@@ -138,33 +137,82 @@
 }
 
 .techniques {
-  margin: auto;
+  margin: 0 auto 0 auto;
   width: 80%;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.techniques__section-title {
-  margin: 100px 0 20px 0;
-  line-height: 1.15;
-  font-weight: 600;
-  font-size: 60px;
+.section-title_place_techniques {
+  margin: 100px auto 20px auto;
 }
 
-.section-subtitle {
-  width: 60%;
-  text-align: center;
-  margin: 0;
-  line-height: 34px;
-  font-weight: normal;
-  font-size: 24px;
+.section-subtitle_place_techniques {
+ margin: 0;
 }
-
 
 .cards {
-  flex-direction: row;
   list-style: none;
+  width: 920px;
+  outline: 1px red solid;  
+}
+
+.cards__item {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  display: inline-block;
+  flex-direction: column;
+  justify-content: center;
+  list-style: none;
+  flex-wrap: wrap;
+  outline: 1px red solid;
+}
+
+.cards__image {
+  width: 160px;
+  height: 160px;
+  margin: 60px 40px 43px 40px;
+}
+
+.cards__description  {
+  width: ;
+}
+
+.video {
+  margin: auto;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  outline: 1px red solid;
+}
+
+.section-title_place_video {
+  margin: 100px auto 20px auto;
+}
+
+.section-subtitle_place_video {
+  margin: 0 auto 60px auto;
+}
+
+.video__iframes {
+  outline: 1px red solid;
+  margin: auto;
+}
+
+.video__iframe  {
+  outline: 1px red solid;
+}
+
+.video__iframe:first-of-type {
+  margin-right: 20px;
+}
+
+.oakley {
+  padding-top: 160px;
+  box-sizing: border-box;
+  outline: 1px red solid;
 }
 
 .feynman {
@@ -224,19 +272,25 @@
 .section-title {
   width: 60%;
   text-align: center;
-  margin: 0 0 20px 0;
   line-height: 1.15;
   font-weight: 600;
   font-size: 60px;
 }
 
+.section-title_place_digits {
+  margin: 0 auto 20px auto;
+}
+
 .section-subtitle {
   width: 60%;
   text-align: center;
-  margin: 0;
   line-height: 34px;
   font-weight: normal;
   font-size: 24px;
+}
+
+.section-subtitle_place_digits {
+  margin: 0;
 }
 
 .table {

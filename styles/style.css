@@ -154,13 +154,13 @@
   display: flex;
   flex-wrap: wrap;
   margin: auto;
-  padding: 0; 
+  padding: 0;
 }
 
 .cards__item {
+  width: 240px;
   margin: 60px 100px 0 0;
   list-style: none;
-  flex: 0 0 0;
   text-align: center;
 }
 
@@ -193,10 +193,8 @@
 
 .video {
   margin: auto;
-  width: 80%;
   display: flex;
   flex-direction: column;
-  outline: 1px red solid;
 }
 
 .section-title_place_video {
@@ -208,12 +206,13 @@
 }
 
 .video__iframes {
-  outline: 1px red solid;
-  margin: auto;
+  margin: 0 auto -60px auto;
+  display: flex;
 }
 
-.video__iframe  {
-  outline: 1px red solid;
+.video__iframe {
+  width: 515px;
+  height: 316px;
 }
 
 .video__iframe:first-of-type {
@@ -222,8 +221,7 @@
 
 .oakley {
   padding-top: 160px;
-  box-sizing: border-box;
-  outline: 1px red solid;
+  background-color:  #f2f2f2;
 }
 
 .feynman {

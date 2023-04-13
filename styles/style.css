@@ -10,12 +10,8 @@
 
 .page {
   min-width: 1100px;
-  /* мы ещё не умеем делать мобильную версию сайта*/
-  /* поэтому выше установлена минимальная ширина страницы */
   max-width: 1600px;
-  /* выше установили ограничение по максимальной ширине */
   margin: 0 auto;
-  /* выше для экранов больше 1600px отцентрировали весь контент */
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 
@@ -149,7 +145,7 @@
 }
 
 .section-subtitle_place_techniques {
- margin: 0;
+ margin: 0 auto;
 }
 
 .cards {
@@ -158,27 +154,41 @@
   display: flex;
   flex-wrap: wrap;
   margin: auto;
-  justify-content: center;
-  padding: 0;
-  background-color: aqua; 
+  padding: 0; 
 }
 
 .cards__item {
-  padding: 0;
-  margin: 0;
+  margin: 60px 100px 0 0;
   list-style: none;
   flex: 0 0 0;
-  background-color: #2f80ed;
+  text-align: center;
+}
+
+.cards__item:nth-child(3n) {
+  margin-right: 0;
 }
 
 .cards__image {
   width: 160px;
   height: 160px;
-  margin: 60px 40px 43px 40px;
+  margin: 0 40px 43px 40px;
+  border-radius: 50%;
+}
+
+.cards__title {
+  margin: 0 0 16px 0;
+  padding: 0;
+  line-height: 1.15;
+  font-weight: 600;
+  font-size: 24px;
 }
 
 .cards__description  {
-  
+  margin: 0;
+  padding: 0;
+  line-height: 23px;
+  font-weight: normal;
+  font-size: 18px;
 }
 
 .video {

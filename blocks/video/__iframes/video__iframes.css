@@ -1,4 +1,13 @@
 .video__iframes {
-    margin: 0 auto -60px auto;
     display: flex;
+    justify-content: center;
+    list-style: none;
+    margin:  0 0 -50px 0;
+    padding: 0;
+    line-height: 0;
 }
+
+.video__iframes li+li {
+    margin-left: 20px;
+}
+   

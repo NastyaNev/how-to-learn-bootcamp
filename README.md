@@ -2,7 +2,7 @@
 
 ## *Сайт, рассказывающий о сложностях и методиках обучения.*
 
-Ссылка на демо :point_right: [здесь](https://how-to-learn-from-nastyanev.surge.sh/ "Ссылка опубликованного проекта на surge.sh") {:target="_blank"}
+Ссылка на демо :point_right: <a href="https://how-to-learn-from-nastyanev.surge.sh/" alt="Ссылка опубликованного проекта на surge.sh" target="_blank">здесь</a>
 
 Самостоятельное обучение часто бывает ~~невозможным~~ очень сложным. Сайт **How to learn** рассказывает о методиках и лайфхаках в обучении.
 

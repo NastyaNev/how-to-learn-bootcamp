@@ -34,7 +34,7 @@
   }
 ```
 
-![Alt Text](https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif)
+![Alt Text](./images/ezgif.com-video-to-gif%20(1).gif) ![Alt Text](./images/ezgif.com-video-to-gif%20.gif)
 
 **Код организован** согласно БЭМ методологии.
 

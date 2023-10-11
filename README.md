@@ -34,7 +34,7 @@
   }
 ```
 
-![Alt Text](./images/ezgif.com-video-to-gif%20(1).gif) ![Alt Text](./images/ezgif.com-video-to-gif%20.gif)
+![ezgif com-video-to-gif (1)](https://github.com/NastyaNev/NastyaNev/assets/129982615/daa99a63-f1b0-47b9-9eef-b2d759756aeb) ![ezgif com-video-to-gif](https://github.com/NastyaNev/NastyaNev/assets/129982615/6d3a96e3-c9a5-4d57-b691-8561a960306a)
 
 **Код организован** согласно БЭМ методологии.
 
